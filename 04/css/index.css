@@ -1,0 +1,26 @@
+.square{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	background-color: #ccc;
+	overflow: hidden;
+}
+.corner{
+	position: absolute;
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	background: #fc0;
+}
+.top-corner{
+	left: -50px;
+	top: -50px;
+}
+.bottom-corner{
+	right: -50px;
+	bottom: -50px;
+}
