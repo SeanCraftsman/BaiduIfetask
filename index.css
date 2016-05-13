@@ -1,0 +1,78 @@
+body{
+	font-family: "Microsoft Yahei";
+	background: #dedede;
+	margin: 0;
+	padding:0;
+}
+
+header{
+	height: 70px;
+	width: 100%;
+	background: #012;
+	position: fixed;
+	top:0;
+	color: #fff;
+}
+
+header span{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+header h1{
+	position: absolute;
+	margin: 0;
+	top:15px;
+	left: 200px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+nav ul li a{
+	color: #FFF;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: gray;
+}
+
+main{
+	width: 900px;
+	margin: 100px auto;
+}
+
+article{
+	height: 400px;
+	background: #fff;
+	margin-bottom: 10px;
+	box-shadow:2px 2px 2px #848484;
+	position: relative;
+	z-index: -1;
+	padding: 20px;
+}
+article .mark{
+	position: absolute;
+	top: -100px;
+}
+
+article .header{
+	background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-indent: 2em;
+}
